@@ -22,6 +22,7 @@ function App() {
       <div className='cardcomponents'>
         <Cardlist object={crew}/>
       </div>
+      <footer>Created by: <a href='https://github.com/Gnova09'>Gnova09</a> </footer>
     </div>
   );
 }
