@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Cardlist from './components/card/cardlist';
+import crew from './components/card/crew';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='text-content'>
+        <div className='crew'>
+          <h1>The creative crew</h1>
+        </div>
+        <span>
+          <h2>WHO WE ARE</h2>
+          <p>
+            We are team of creatively diverse, driven,
+            innovative individuals working in various locations
+            from the world
+          </p>
+        </span>
+      </div>
+      <div className='cardcomponents'>
+        <Cardlist object={crew}/>
+      </div>
     </div>
   );
 }

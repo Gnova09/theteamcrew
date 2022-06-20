@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+.cardcomponents{
+  display: flex;
+}
+
+.cardlist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 10px;
+}
+.card img{
+  width: 70%;
+  height: auto;
+}
+.text-content{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+  
+}
+.crew{
+  display: flex;
+  width: 40%;
+}
+.text-content span {
+  text-align: left;
+  width: 450px;
+  margin-left: 20px;
+}
+.card p{
+  transform: rotate(90deg)
+}
+.img-content{
+  display: flex;
+  align-items: flex-start;
+}
+
+
+
