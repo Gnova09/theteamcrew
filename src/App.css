@@ -73,12 +73,18 @@
   margin-left: 20px;
 }
 .card p{
-  transform: rotate(90deg)
+  transform: rotate(90deg);
+  text-align: left;
 }
 .img-content{
   display: flex;
   align-items: flex-start;
 }
-
+.cardlist .card:nth-child(2) {
+  margin-top: 80px;
+}
+.cardlist .card:nth-child(5) {
+  margin-top: 80px;
+}
 
 
